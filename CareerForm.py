@@ -26,6 +26,7 @@ layout = [
     [gui.Submit(font=font)]
 ]
 
+# Event loop
 window = gui.Window("Career Form", layout, resizable=True)
 while True:
     event, values = window.read()
